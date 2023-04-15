@@ -1,20 +1,26 @@
 
-import Desenvolvedor from 'SeuNick';
+```typescript
 
-class SobreMim extends Desenvolvedor {
-  nome     = 'Seu nome';
-  area    = 'Sua área';
-  trabalho  = 'Onde trabalha';
-  local = 'Local';
+class WhoAmI extends Junior Developer<Student>{
+
+	name: String = "Larissa FElipe";
+	age: int = 21;
+	hobbies: Array<String> = [
+		"Watching series",
+		"Learning",
+		"Have a time in nature"
+	];
+	
+	connectWithMe(): Object {
+		return {
+			Portfolio: "https://bitpickle.dev",
+			Linkedin: "larissa-felipe",
+			Email: "larissafelipereis7@gmail.com"		
+		}
+	}
 }
 
-class Skills extends Desenvolvedor {
-  linguagens  = ['Suas linguagens'];
-  bibliotecas  = ['Suas bibliotecas'];
-  frameworks = ['Seus frameworks'];
-}
-
-  
+```
 
 <div align="center">
   <a href="https://github.com/larissafr1">
