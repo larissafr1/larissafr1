@@ -3,7 +3,7 @@
 
 class WhoAmI extends Junior Developer<Student>{
 
-	name: String = "Larissa FElipe";
+	name: String = "Larissa Felipe";
 	age: int = 21;
 	hobbies: Array<String> = [
 		"Watching series",
@@ -13,7 +13,6 @@ class WhoAmI extends Junior Developer<Student>{
 	
 	connectWithMe(): Object {
 		return {
-			Portfolio: "https://bitpickle.dev",
 			Linkedin: "larissa-felipe",
 			Email: "larissafelipereis7@gmail.com"		
 		}
