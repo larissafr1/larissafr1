@@ -1,7 +1,24 @@
 ### E aí! 👋✌️
 
 
-- 🌱 Estudante de Desenvolvimento Web Full Stack
+class WhoAmI extends Junior Developer<Student>{
+
+	name: String = "Larissa Felipe";
+	age: int = 21;
+	hobbies: Array<String> = [
+		"Watching series",
+		"Learning",
+		"Have a time in nature"
+	];
+	
+	connectWithMe(): Object {
+		return {
+			Linkedin: "larissa-felipe",
+			Email: "larissafelipereis7@gmail.com"		
+		}
+	}
+}
+  
 
 <div align="center">
   <a href="https://github.com/larissafr1">
