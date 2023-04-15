@@ -1,22 +1,18 @@
 
-class WhoAmI extends Junior Developer<Student>{
+import Desenvolvedor from 'SeuNick';
 
-	name: String = "Larissa Felipe";
-	age: int = 21;
-	hobbies: Array<String> = [
-		Watching series",
-		"Learning",
-		"Have a time in nature"
-	];
-	
-	connectWithMe(): Object {
-		return {
-			Linkedin: "larissa-felipe",
-			Email: "larissafelipereis7@gmail.com"		
-		}
-	}
+class SobreMim extends Desenvolvedor {
+  nome     = 'Seu nome';
+  area    = 'Sua área';
+  trabalho  = 'Onde trabalha';
+  local = 'Local';
 }
 
+class Skills extends Desenvolvedor {
+  linguagens  = ['Suas linguagens'];
+  bibliotecas  = ['Suas bibliotecas'];
+  frameworks = ['Seus frameworks'];
+}
 
   
 
