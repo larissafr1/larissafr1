@@ -1,12 +1,10 @@
-### E aí! 👋✌️
-
 
 class WhoAmI extends Junior Developer<Student>{
 
 	name: String = "Larissa Felipe";
 	age: int = 21;
 	hobbies: Array<String> = [
-		"Watching series",
+		Watching series",
 		"Learning",
 		"Have a time in nature"
 	];
@@ -18,6 +16,8 @@ class WhoAmI extends Junior Developer<Student>{
 		}
 	}
 }
+
+
   
 
 <div align="center">
