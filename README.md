@@ -4,7 +4,7 @@
 class WhoAmI extends Junior Developer<Student>{
 
 	name: String = "Larissa Felipe";
-	age: int = 21;
+	age: int = 22;
 	hobbies: Array<String> = [
 		"Watching series",
 		"Learning",
