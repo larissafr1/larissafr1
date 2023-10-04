@@ -1,4 +1,3 @@
-
 ```typescript
 
 class WhoAmI extends Junior Developer<Student>{
