@@ -1,9 +1,9 @@
 ```typescript
 
-class WhoAmI extends Junior Developer<Student>{
+class WhoAmI extends Scrum Master<Student>{
 
 	name: String = "Larissa Felipe";
-	age: int = 22;
+	age: int = 23;
 	hobbies: Array<String> = [
 		"Watching series",
 		"Learning",
